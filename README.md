@@ -1,36 +1,36 @@
-# [Research Notes] Few-Shot Character Recognition
+# [Literature Review] Healthcare AI Ethics & Reliability
 
-> **Repository Scope:** Academic Paper & Presentation Material
-> **Topics:** Meta-Learning, Few-Shot Learning (FSL), Metric Space Learning, Ancient Script Recognition
+> **Repository Scope:** Academic Manuscript & Presentation Decks
+> **Topics:** Clinical AI Reliability, Model Opacity, Shortcut Learning, Algorithmic Bias, AI Regulation
 
 ---
 
 ## Overview
 
-This repository contains academic research materials and presentation slides focused on few-shot learning (FSL) and meta-learning techniques applied to data-scarce vision tasks, such as historical character recognition.
+This repository holds research materials and presentation decks examining critical socio-technical, regulatory, and technical evaluation frameworks for machine learning applications in clinical environments.
 
 ---
 
 ## Document Summaries
 
-### 1. `manuscripts/2026-01-few-shot-character-recognition-paper.pdf` *(Research Paper)*
-* **Focus:** Data-Scarce Script Classification & Meta-Learning
-* **Summary:** Investigates few-shot learning frameworks and distance-metric architectures (e.g., Siamese and Prototypical Networks) for optical character recognition. Focuses on addressing class imbalance, extreme data scarcity, and fine-grained feature representation in historical character datasets.
+### 1. `manuscripts/2026-05-can-we-trust-ai-in-healthcare.pdf` *(Paper Document / Manuscript Draft)*
+* **Focus:** Clinical Trustworthiness & Model Auditability
+* **Summary:** Analyzes technical and ethical preconditions for deploying deep learning in clinical pipelines. Examines the limitations of post-hoc Explainable AI (XAI) tools, legal liability shifts under evolving regulatory standards, and safety auditing requirements needed prior to clinical adoption.
 
 ---
 
-### 2. `presentations/2026-03-meta-learning-and-few-shot-slides.pdf` *(Slide Deck)*
-* **Focus:** Meta-Learning Frameworks & Benchmarks
-* **Summary:** Presentation deck detailing the taxonomy of meta-learning algorithms (metric-based vs. optimization-based). Covers loss formulations, contrastive learning strategies, and evaluation protocols on standard character benchmarks like Omniglot.
+### 2. `presentations/2025-10-shortcut-learning-and-demographic-bias.pdf` *(Slide Deck)*
+* **Focus:** Diagnostic Spurious Correlations & Disparities
+* **Summary:** Explores how medical vision models exploit non-pathological proxy features (e.g., scanner artifacts, patient demographic markers) instead of true medical pathology. Evaluates algorithmic failure modes and out-of-distribution generalization in healthcare settings.
 
 ---
 
 ## Repository Index
 
-| File | Format | Topic |
+| File | Format | Primary Research Focus |
 | :--- | :--- | :--- |
-| `2026-01-few-shot-character-recognition-paper.pdf` | Paper / Manuscript | Few-Shot Learning & Metric Space Architectures |
-| `2026-03-meta-learning-and-few-shot-slides.pdf` | Slide Deck | Meta-Learning Taxonomy & Benchmark Evaluation |
+| `manuscripts/2026-05-can-we-trust-ai-in-healthcare.pdf` | Paper Draft | Interpretability, Auditability & Clinical Trust |
+| `presentations/2025-10-shortcut-learning-and-demographic-bias.pdf` | Slide Deck | Spurious Correlations, Shortcut Learning & Bias |
 
 ---
 
